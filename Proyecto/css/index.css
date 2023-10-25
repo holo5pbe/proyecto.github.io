@@ -1,0 +1,229 @@
+body {
+    background-color: rgba(207, 81, 81, 0.181);
+}
+/* Estilos para el encabezado */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #3cd73a50;
+    z-index: 999; 
+    height: 80px;
+    
+  }
+  
+  .nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+  }
+  
+  ul i {
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .nav-menu-item {
+    list-style: none;
+    width: max-content;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px;
+  }
+  
+  .nav-menu-link:hover,
+  .nav-menu-link_active {
+    height: 40px;
+    border-radius: 10px;
+    background-color: #034574;
+    transition: 0.5s;
+  }
+  
+  .nav-toggle {
+    font-size: 2.5em;
+    background: none;
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+    display: none;
+  }
+  
+/* Estilos para el main */
+main {
+    margin-top: 120px;
+  }
+  
+  /* Estilos de las cartas de presentacion*/
+.tarjeta {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.integrantes {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.tarjeta:hover {
+    transform: scale(1.05);
+    background-color: #3399ff;
+    color: #fff;
+}
+
+.imagen {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.nombre {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.estudio {
+    font-style: italic;
+}
+
+.cargo {
+    font-weight: bold;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /* estilos del enfoque */
+  .seccion-enfoque {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.enfoque {
+    flex: 1;
+    padding: 20px; /* Espacio para el contenido */
+}
+
+.logoP {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    max-width: 100px; /* Ajusta el ancho máximo del logo según tus necesidades */
+}
+
+
+
+
+
+/* Estilos de los objetivos*/
+.seccion-objetivos {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.objetivo_general, .objetivos_especificos {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.img_obj_general, .img_obj_especificos {
+    flex: 1;
+    text-align: center;
+}
+
+.text_obj_general, .text_obj_especificos {
+    flex: 1;
+    text-align: center;
+    
+}
+
+
+
+
+/* Estilo del footer */
+footer {
+    background-color: #67c0bd;
+    color: #fff;
+    text-align: center;
+    
+}
+
+/* Estilo para los enlaces del footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Estilo para la lista de enlaces */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo para el pie de página */
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para los enlaces en la lista del pie de página */
+.footer-content ul li {
+    display: inline;
+}
+
+.quienes{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
